@@ -1,0 +1,19 @@
+with python
+read Amazon.com _laptops.html and parse it with Beautifulsoup
+
+
+findall
+div with class="puis-card-container s-card-container s-overflow-hidden aok-relative puis-include-content-margin puis puis-v1k579acibq3g12dxe3xrr3x1qq s-latency-cf-section puis-card-border" bis_skin_checked="1"
+
+for all divs
+
+try find span with class="a-size-medium a-color-base a-text-normal" and store it to product_name
+except product_name = " "
+try find span with class="a-price-whole" and store it to product_price
+except product_price = " "
+try find span with class="a-color-base a-text-bold" and store it to delivery_date
+except delivery_date = " "
+try find a with class="a-link-normal s-underline-text s-underline-link-text s-link-style a-text-normal", extract its href and store it to product_link
+except product_link = " "
+
+make a dictionary with all the data and make a pandas dataframe from it
