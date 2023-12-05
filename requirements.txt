@@ -3,3 +3,9 @@ bs4
 pandas
 openpyxl
 selenium
+webdriver_manager
+scrapy
+ipython
+Twisted
+scrapeops_scrapy_proxy_sdk
+pyodbc
