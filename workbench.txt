@@ -1,0 +1,45 @@
+ scrapy genspider amazonspider amazon.com
+scrapy crawl amazonsearch -O headphones.json
+
+relative_url = product.css("h2>a::attr(href)").get()
+product_url = urljoin('https://www.amazon.com/', relative_url).split("?")[0]
+fetch('https://www.amazon.com/s?k=wireless+keyboard&crid=2UGUIC1ODLFXR&sprefix=wireless+keyboard+%2Caps%2C2111&ref=nb_sb_noss_2')
+response.css('span.a-price-whole::text').get()
+
+
+products  =  response.css("div.s-result-item[data-component-type=s-search-result]")
+ product.css("h2>a::attr(href)").get()
+titles = response.xpath('//div/div/div/span/div/div/div/div[2]/div/div/div[1]/h2/a/span').extract()
+urls  = response.xpath('//div/div/div/span/div/div/div/div[2]/div/div/div[1]/h2/a/@href').extract()
+
+/html/body/div[1]/div[1]/div[1]/div[1]/div/span[1]/div[1]/div[13]/div/div/span/div/div/div/div[2]/div/div/div[1]/h2/a
+//div/div/div/span/div/div/div/div[2]/div/div/div[1]/h2/a
+
+
+for product in products:
+    title = product.xpath('//div/div/div/span/div/div/div/div[2]/div/div/div[1]/h2/a/span/text()').get()
+    relative_url = product.css("h2>a::attr(href)").get()
+    product_url = urljoin('https://www.amazon.com/', relative_url).split("?")[0]
+
+ title = response.xpath('//span[@id="productTitle"]/text()').get()
+ price = response.xpath('//span[@class="a-offscreen"]/text()').get()
+ brand  = response.xpath('//span[@class="a-size-base po-break-word"]/text()').get()
+ image =
+
+5/12
+fetch('https://www.amazon.com/s?k=ps5+controller+pro&crid=1IQDURSFEEVL4&qid=1701782299&sprefix=ps5%2Caps%2C679&ref=sr_pg_1')
+
+desc = response.xpath('//*[@id="feature-bullets"]/ul/li/span/text()')
+
+for feature i desc:
+    feature.get()
+    description.append(feature)
+//*[@id="feature-bullets"]/ul/li[1]/span
+//*[@id="feature-bullets"]/ul/li/span
+
+form factor response.xpath('//*[@id="productOverview_feature_div"]/div/table/tbody/tr[4]/td[2]/span/text()).get()
+response.xpath('//tr[4]/td[2]/span/text()').get()
+model = response.xpath('//tr[2]/td[2]/span/text()').get()
+
+//div[42]/div/table/tbody/tr[4]/td[2]/span
+fetch('https://www.amazon.com/Wireless-Vssoplor-Portable-Computer-Computer-Black/dp/B098S48QWM/ref=sr_1_19?crid=12H7Y42TTT2AI&keywords=Wireless%2Bmouse&qid=1701801661&sprefix=wireless%2Bmouse%2Caps%2C1235&sr=8-19&th=1')
