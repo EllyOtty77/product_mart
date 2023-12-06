@@ -4,7 +4,17 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ba8e703e-b0e7-416b-88d9-dcf64d0b51c0" name="Changes" comment="Amazon spider complete. Proxy integration plus pipelines." />
+    <list default="true" id="ba8e703e-b0e7-416b-88d9-dcf64d0b51c0" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/digistore_ke/digi_store.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/digistore_ke/laptops_data.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/digistore_ke/scrape_all.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/productscrape.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/workbench.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/product_mart.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/product_mart.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -155,31 +165,9 @@
       <option name="presentableId" value="Default" />
       <updated>1697392774601</updated>
     </task>
-    <task id="LOCAL-00001" summary="Amazon spider complete. Proxy integration plus pipelines.">
-      <option name="closed" value="true" />
-      <created>1701814286622</created>
-      <option name="number" value="00001" />
-      <option name="presentableId" value="LOCAL-00001" />
-      <option name="project" value="LOCAL" />
-      <updated>1701814286622</updated>
-    </task>
-    <option name="localTasksCounter" value="2" />
     <servers />
-  </component>
-  <component name="Vcs.Log.Tabs.Properties">
-    <option name="TAB_STATES">
-      <map>
-        <entry key="MAIN">
-          <value>
-            <State />
-          </value>
-        </entry>
-      </map>
-    </option>
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="Amazon spider complete. Proxy integration plus pipelines." />
-    <option name="LAST_COMMIT_MESSAGE" value="Amazon spider complete. Proxy integration plus pipelines." />
   </component>
 </project>
